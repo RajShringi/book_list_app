@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { AiOutlineDelete, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineDelete } from "react-icons/ai";
 
 function Book({ book, deleteBook, isModalOpen, handleModal }) {
   return (
